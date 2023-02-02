@@ -1,0 +1,32 @@
+// This is the main layout component
+
+body {
+  margin: 0px;
+  .main {
+    // display: flex;
+    // width: 100vw;
+    // height: 100vh;
+
+    .child {
+      margin: auto;
+      // width: 1440px;
+      // height: 80vh !important;
+      overflow: hidden;
+      // border-radius: 20px;
+      box-shadow: 10px 10px 400px -3px rgba(0, 0, 0, 0.33);
+      -webkit-box-shadow: 10px 10px 400px -3px rgba(0, 0, 0, 0.33);
+      -moz-box-shadow: 10px 10px 400px -3px rgba(0, 0, 0, 0.33);
+
+      // if width is less than 1500px then set width to 100%
+      @media (max-width: 1500px) {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+      }
+
+      // #fullpage {
+      //   position: relative;
+      // }
+    }
+  }
+}
