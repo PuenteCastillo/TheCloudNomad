@@ -14,13 +14,18 @@ export default function HeroNav() {
           </div>
           <div className="col-md-3">
             <div className="socialIcons">
-              <i class="fa-solid fa-user"></i>
-              <i class="fa-solid fa-house"></i>
-              <i class="fa-brands fa-linkedin"></i>
-
-              <i class="fa-brands fa-github"></i>
-              <i class="fa-solid fa-envelope"></i>
-              <i class="fa-brands fa-instagram"></i>
+              <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </div>
           </div>
         </div>

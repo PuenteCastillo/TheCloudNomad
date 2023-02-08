@@ -90,9 +90,6 @@ export default function Hero() {
         </div>
         <div className="slideTwo myslide">
           <div className="slide-child">
-            <h1>
-              <span>Developer</span> <span>by</span> <span>Day,</span>
-            </h1>
             <Image
               className="dev mainDev"
               src={Dev}
@@ -103,14 +100,13 @@ export default function Hero() {
               src={ComputerShadow}
               alt="Picture of the author"
             />
+            <h1>
+              <span>Developer</span> <span>by</span> <span>Day,</span>
+            </h1>
           </div>
         </div>
         <div className="slideThree myslide">
           <div className="slide-child">
-            <h1>
-              <span>Gamer</span> <span>By</span>
-              <span> Night.</span>
-            </h1>
             <Image
               className="control mainController"
               src={Controller}
@@ -121,6 +117,10 @@ export default function Hero() {
               src={ControllerShadow}
               alt="Picture of the author"
             />
+            <h1>
+              <span>Gamer</span> <span>By</span>
+              <span> Night.</span>
+            </h1>
           </div>
         </div>
         <div className="slideFour myslide">

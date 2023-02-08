@@ -6,23 +6,25 @@
   position: absolute;
   top: 0;
   width: 100vw;
+  z-index: 99999;
   .logo {
     width: 200px;
     height: auto;
   }
   .socialIcons {
     margin-top: 25px;
-    // float: right;
+    float: right;
     a {
-      background-color: red;
+      // background-color: red;
       color: wheat;
+      // text-decoration: none;
     }
     i {
       color: white;
       display: block;
       font-size: 20px;
       margin-bottom: 10px;
-      background-color: red;
+      // background-color: red;
     }
   }
 }
@@ -48,6 +50,12 @@
     height: 1000px;
     transform: scale(0.8);
 
+    /// on devices 992px and smaller
+    @media (max-width: 992px) {
+      // transform: scale(0.5);
+      // width: 300vw;
+    }
+
     .myslide {
       position: absolute;
 
@@ -58,6 +66,10 @@
         margin: auto;
         width: fit-content;
         position: relative;
+        img {
+          max-width: 80vw;
+          height: auto;
+        }
       }
     }
     .slideTwo {
@@ -66,6 +78,12 @@
 
     h1 {
       color: white;
+      @media (max-width: 992px) {
+        text-align: center;
+      }
+      @media (max-width: 657px) {
+        font-size: 40px;
+      }
     }
 
     .me {
@@ -75,6 +93,11 @@
       margin-left: 15%;
       position: absolute;
       z-index: -100;
+      // mobile
+      @media (max-width: 657px) {
+        margin-left: 10%;
+        margin-top: -100px;
+      }
     }
     .dev {
       margin: auto;
@@ -86,7 +109,22 @@
       position: absolute;
       //   background-color: red;
       z-index: -100;
+      max-width: 90vw;
+      @media (max-width: 992px) {
+        margin-top: 0px;
+        position: relative;
+        margin-left: 0;
+        margin: auto;
+        margin-bottom: -100px;
+        display: block;
+      }
     }
+    .devShadow {
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+
     .control {
       margin: auto;
       top: 0;
@@ -97,6 +135,19 @@
       position: absolute;
       //   background-color: red;
       z-index: -100;
+      @media (max-width: 992px) {
+        margin-top: 0px;
+        position: relative;
+        margin-left: 0;
+        margin: auto;
+        margin-bottom: -100px;
+        display: block;
+      }
+    }
+    .controlShadow {
+      @media (max-width: 992px) {
+        display: none;
+      }
     }
     .point {
       margin: auto;
@@ -108,6 +159,13 @@
       position: absolute;
       //   background-color: red;
       z-index: -100;
+
+      // mobile
+      @media (max-width: 657px) {
+        width: 200px;
+        margin-left: 30px;
+        margin-top: -90px;
+      }
     }
     .pointTop {
       z-index: 500;

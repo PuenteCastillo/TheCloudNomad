@@ -1,5 +1,6 @@
 // import modules for sections
 import Hero from "../modules/Hero";
+import What from "../modules/What";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 const anchors = ["firstPage", "secondPage", "thirdPage"];
@@ -19,7 +20,7 @@ export default function Layout() {
               <Hero />
             </div>
             <div id="secondPage" className="section ">
-              <p>Section 2</p>
+              <What />
             </div>
             <div id="thirdPage" className="section ">
               <p>Section 2</p>
