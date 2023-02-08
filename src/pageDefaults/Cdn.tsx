@@ -47,6 +47,14 @@ export default function Cdn() {
         src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.js"
       ></script>
 
+      {/* Font Awsome */}
+      <script
+        src="https://kit.fontawesome.com/d8f21f0808.js"
+        crossorigin="anonymous"
+      ></script>
+
+      {/* GSAP */}
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/EaselPlugin.min.js"></script>
     </>
