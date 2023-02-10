@@ -10,22 +10,22 @@ export default function What() {
             <h2>ABOUT</h2>
           </div>
           <div className="row ">
-            <div className="col-lg-3">
+            <div className="col-md-6  col-lg-3">
               <Image src={Placeholder} alt="placeholder" className="aboutImg" />
               <h3>Code</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className="col-lg-3">
+            <div className="col-md-6  col-lg-3">
               <Image src={Placeholder} alt="placeholder" className="aboutImg" />
               <h3>Code</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className="col-lg-3">
+            <div className=" col-md-6  col-lg-3">
               <Image src={Placeholder} alt="placeholder" className="aboutImg" />
               <h3>Code</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className="col-lg-3">
+            <div className="col-md-6  col-lg-3">
               <Image src={Placeholder} alt="placeholder" className="aboutImg" />
               <h3>Code</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

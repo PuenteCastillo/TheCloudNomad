@@ -83,7 +83,7 @@ export default function Hero() {
         <div className="slideOne myslide">
           <div className="slide-child">
             <h1 className="intro">
-              <span>Hello!</span> <span>It's</span> <span>Dough</span>
+              <span>Hola!</span> <span>I'm</span> <span>J.P</span>
             </h1>
             <Image className="me" src={Me} alt="Picture of the author" />
           </div>

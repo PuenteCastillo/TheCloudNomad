@@ -1,9 +1,12 @@
 .AboutSection {
   background-color: #0c10cb;
   width: 100%;
-  height: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  // height: 100vh;
   display: flex;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
   .about_child {
     margin: auto;
     width: 1400px;
@@ -14,8 +17,24 @@
         font-family: "Archivo Black", sans-serif;
         font-size: 160pt;
         color: white;
+        // shrink on 992px or below
+        @media (max-width: 992px) {
+          font-size: 100pt;
+        }
+        // shrink on 768px or below
+        @media (max-width: 768px) {
+          font-size: 50pt;
+        }
       }
       margin-bottom: -150px;
+      // shrink on 992px or below
+      @media (max-width: 992px) {
+        margin-bottom: -120px;
+      }
+      // remove bottom margin on 768px or below
+      @media (max-width: 768px) {
+        margin-bottom: 0;
+      }
     }
     .aboutImg {
       width: 400px;
@@ -23,6 +42,10 @@
       height: auto;
       margin: auto;
       display: block;
+      // recude size on 992px or below
+      @media (max-width: 992px) {
+        width: 250px;
+      }
     }
     color: white;
     text-align: center;
